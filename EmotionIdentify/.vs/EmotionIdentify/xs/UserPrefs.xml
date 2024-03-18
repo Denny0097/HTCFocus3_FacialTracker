@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{18C2EDA2-EC73-D107-DD5D-4E304E5F9AD2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Wave/XR/Platform/Android/AndroidManifest.xml">
+    <Files>
+      <File FileName="Assets/Wave/XR/Platform/Android/AndroidManifest.xml" Line="28" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmotionIdentify" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Wave" expanded="True">
+                <Node name="XR" expanded="True">
+                  <Node name="Platform" expanded="True">
+                    <Node name="Android" expanded="True">
+                      <Node name="AndroidManifest.xml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="812d1774-5295-4659-8c03-3c1370bc96cd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

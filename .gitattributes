@@ -1,1 +1,5 @@
 Library/Artifacts/ca/ca0e9eccb020ac592d1c8ea72642fbe7 filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+=======
+EmotionIdentify/Library/Artifacts/ca/ca0e9eccb020ac592d1c8ea72642fbe7 filter=lfs diff=lfs merge=lfs -text
+≈>>>>>>> 2557a38d (first commit)
