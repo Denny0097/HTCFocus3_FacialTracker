@@ -809,6 +809,18 @@
       <Project>{F8E9D5DB-0D67-0676-00CD-B412D9F3459C}</Project>
       <Name>Wave.Essence.Controller.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="Wave.Essence.InputModule.csproj">
+      <Project>{F0C3B6EC-4DBE-7D1E-1D01-AEEE534CC379}</Project>
+      <Name>Wave.Essence.InputModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="Wave.Essence.Hand.Model.csproj">
+      <Project>{54F38C1C-7C50-9827-7446-223EF7D99081}</Project>
+      <Name>Wave.Essence.Hand.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Wave.Essence.Interaction.Mode.csproj">
+      <Project>{7E6236A4-B183-69CE-1DBB-B20987827A88}</Project>
+      <Name>Wave.Essence.Interaction.Mode</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

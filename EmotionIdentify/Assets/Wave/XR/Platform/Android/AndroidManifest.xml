@@ -30,6 +30,6 @@
 	<uses-feature android:name="wave.feature.sceneperception" android:required="true" />
 	<uses-permission android:name="wave.permission.GET_SCENE_MESH" />
 	<uses-feature android:name="wave.feature.marker" android:required="true" />
-    <uses-feature android:name="wave.feature.lipexpression" android:required="true" />
+
 </manifest>
 

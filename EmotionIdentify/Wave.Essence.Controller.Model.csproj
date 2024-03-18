@@ -56,21 +56,21 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/RenderModel.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/ControllerPoseModeHandler.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/PoseMode.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ResourceHolder.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTipsEditor.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTips.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/DemoCMGazeInput.cs" />
     <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/ControllerTipsTestEventHandler.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/TransformConverter.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTipsEditor.cs" />
     <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/CustomizeWaveController.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/UpdateCanvas.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ButtonEffect.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/PoseMode.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/RenderModel.cs" />
     <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/CustomizeWaveControllerEditor.cs" />
-    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTipsLine.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/ControllerPoseModeHandler.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ButtonEffect.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTips.cs" />
     <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/DemoCMGazePointer.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/DemoCMGazeInput.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ControllerTipsLine.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/TransformConverter.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Demo/Scripts/UpdateCanvas.cs" />
+    <Compile Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Scripts/ResourceHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Wave/Essence/Controller/Model/5.6.0-r.10.2/Font/Apache_License.txt" />
@@ -343,6 +343,15 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -358,17 +367,8 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.30f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
