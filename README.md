@@ -1,0 +1,2 @@
+# HTCFocus3_FacialTracker
+使用Facial tracker套件辨識表情
